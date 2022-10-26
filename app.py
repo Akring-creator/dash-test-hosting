@@ -1,6 +1,5 @@
 import dash
-from dash import html
-from dash import dcc
+from dash import dcc,  Input, Output, dcc, html, State
 import plotly.graph_objs as go
 import numpy as np
 tabtitle = 'EduML'
