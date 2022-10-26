@@ -3,6 +3,8 @@ from dash import html
 from dash import dcc
 import plotly.graph_objs as go
 
+tabtitle = 'EduML'
+
 ########### Initiate the app
 # external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__) #external_stylesheets=external_stylesheets)
