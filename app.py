@@ -2,7 +2,7 @@ import dash
 from dash import html
 from dash import dcc
 import plotly.graph_objs as go
-
+import numpy as np
 tabtitle = 'EduML'
 
 ########### Initiate the app
