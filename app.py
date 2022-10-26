@@ -16,6 +16,7 @@ array1 = np.array([2, 3, 5, 7])
 ########### Set up the layout
 app.layout = html.Div(children=[
     html.H1("Block Similiarity"),
+    html.H1("Block 1"),
     html.Br(),
     html.H2(p),
     dcc.Input( id = 'p1', type = 'number'),
@@ -23,7 +24,15 @@ app.layout = html.Div(children=[
     dcc.Input( id = 'l1', type = 'number'),
     html.H2(t),
     dcc.Input( id = 't1', type = 'number'),
-    html.Button(id = 'SubmitButton')
+    html.H1("Block 2"),
+    html.Br(),
+    html.H2(p),
+    dcc.Input( id = 'p2', type = 'number'),
+    html.H2(l),
+    dcc.Input( id = 'l2', type = 'number'),
+    html.H2(t),
+    dcc.Input( id = 't2', type = 'number'),
+    html.Button(children = "Cek Kesamaan", id = 'SubmitButton')
     ]
 )
 
