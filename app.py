@@ -10,7 +10,7 @@ tabtitle = 'EduML'
 app = dash.Dash(__name__) #external_stylesheets=external_stylesheets)
 server = app.server
 app.title=tabtitle
-
+array = np.array([2, 3, 5, 7])
 ########### Set up the layout
 app.layout = html.Div(children=[
     html.H1("Some Random Words")
