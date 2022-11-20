@@ -3,7 +3,6 @@ from qgen import quGen
 import plotly.express as px
 import dash_bootstrap_components as dbc
 import pandas as pd
-import pandas_datareader as web
 import datetime
 
 tabtitle = 'EduML'
